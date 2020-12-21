@@ -1,0 +1,1 @@
+`curl -LO https://github.com/cloudfoundry/bosh-cli/releases/download/v6.4.1/bosh-cli-6.4.1-linux-amd64`{{execute}}
