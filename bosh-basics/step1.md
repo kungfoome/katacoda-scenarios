@@ -1,7 +1,10 @@
 Bosh CLI
 ========
 
-Download the latest `bosh cli <https://github.com/cloudfoundry/bosh-cli/releases/>`__ for your OS (Linux and version 6.4.1 examples used here).
+Download the latest [bosh cli](https://github.com/cloudfoundry/bosh-cli/releases/) for your OS (Linux and version 6.4.1 examples used here).
+
+You can also use this command to get the latest release:
+` curl --silent https://api.github.com/repos/cloudfoundry/bosh-cli/releases/latest | grep tag_name`
 
 `curl -LO https://github.com/cloudfoundry/bosh-cli/releases/download/v6.4.1/bosh-cli-6.4.1-linux-amd64`{{execute}}
 
